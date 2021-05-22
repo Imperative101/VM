@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MERN STACK MININ COURSE </title>
+</head>
+<body>
+    <h1> Javascript </h1>
+    <p>Hello world</p>
+    <script type="text/javascript"> 
+    console.log('hello')
+    </script>
+</body>
+</html>
+
+<!-- 
+    FULLSTACK STEPS
+
+
+    npm -v
+    npm init -y     for jsom
+    npm install express
+    
+how to run a simple server. do not create additional servers.
+
+    1. npm -v
+    2. npm init -y     for jsom
+    3. npm install express
+    (to enable test mode)
+
+    const express = require('express')
+    const app = express()
+    app.get('/', (req,res) => {
+    res.status(200).json ({
+    message: 'working'
+    })
+    })
+    app.listen(5000, function() {
+    console.log('server has been started')
+    })
+
+    4. node index.js
+    
+    5. google = localhost:5000
+
+    to make real:
+
+    6. create app.js
+
+    const express = require('express')
+    const app = express()
+    module.exports = app
+
+
+    7. работа независимо от домена, логирование запросов ставить эти пакеты
+    npm install cors morgan
+    8. mongoose for models for database
+    npm i mongoose
+    9. mlab instead mongo
+    use mlab, create account.
+
+    10. bcryptjs - to ENCRYPT USERS DATA - for unique hash
+    install
+    bcryptjs
+
+    npm i bcryptjs
+
+    11. for client token
+
+    npm install json client token
+
+    12. passportjs + strategy for authorization
+
+    npm install passport passport-jwt
+
+    13. for upload.js install:
+    npm install multer moment
+
+    14. npm install - g @angular/cli
+--> 
